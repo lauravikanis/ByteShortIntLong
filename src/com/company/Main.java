@@ -29,5 +29,18 @@ public class Main {
     System.out.println("Short Min Value =" + myMinShortValue);
     System.out.println("Short Max Value =" + myMaxShortValue);
 
+    int myTotal = (myMinValue / 2);
+    byte myNewBytevalue = (byte) (myMinByteValue / 2);
+    //casting other types o value
+
+    short myNewShortValue = (short) (myMaxShortValue/2);
+
+    //--------
+
+byte newByteValue = 100;
+short newShortValue = 32;
+int newIntValue = 234;
+long newLongValue =  (50000L +(10L*(newByteValue + newIntValue + newShortValue)));
+    System.out.print(newLongValue);
     }
 }
